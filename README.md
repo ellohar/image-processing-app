@@ -14,6 +14,11 @@ It also includes the ability to take photos using a camera.
 * **Decrease Brightness:** Decrease the brightness of the photo.
 * **Draw Rectangle:** Draw a rectangle to the photo.
 
+## Requirements
+- Python 3.8
+- pip
+- Git
+
 ## Installation and Running
 ### 1. Clone the repository
 ```sh
@@ -22,15 +27,18 @@ cd image_processing_app
 ```
 ### 2. Create and activate a virtual environment
 Using Windows:   
-`venv\Scripts\activate`   
-Using macOS/Linux:   
-`source venv/bin/activate`   
+```
+python -m venv venv
+venv\Scripts\activate
+```      
 Using 'conda':   
-`conda create --name myenv python=3.8   
-conda activate myenv`   
+```
+conda create --name myenv python=3.8
+conda activate myenv
+```   
 ### 3. Install dependencies
 `pip install -r requirements.txt`
-### 4. Pun the application
+### 4. Run the application
 `python main.py`
 
 ## Project Structure
