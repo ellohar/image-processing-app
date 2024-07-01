@@ -15,19 +15,23 @@ It also includes the ability to take photos using a camera.
 * **Draw Rectangle:** Draw a rectangle to the photo.
 
 ## Installation and Running
-### Requirements
-* Python 3.x
-* PyQt5
-* OpenCV
-*Pillow
-
-## Installing Dependencies
-Use pip to install the necessary dependencies:
-`pip install PyQt5 opencv-python pillow`
-
-## Running the Application
-Save all project files in one directory. To run the application, use the following command:
-`python start_window.py`
+### 1. Clone the repository
+```sh
+git clone <URL_of_your_repository>
+cd <repository_name>
+```
+### 2. Create and activate a virtual environment
+Using Windows:   
+`venv\Scripts\activate`   
+Using macOS/Linux:   
+`source venv/bin/activate`   
+Using 'conda':   
+`conda create --name myenv python=3.8   
+conda activate myenv`   
+### 3. Install dependencies
+`pip install -r requirements.txt`
+### 4. Pun the application
+`python main.py`
 
 ## Project Structure
 * `start_window.py`: The main application file containing the primary GUI and core editing functions.
