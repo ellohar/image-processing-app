@@ -17,8 +17,8 @@ It also includes the ability to take photos using a camera.
 ## Installation and Running
 ### 1. Clone the repository
 ```sh
-git clone <URL_of_your_repository>
-cd <repository_name>
+git clone https://github.com/ellohar/image-processing-app.git
+cd image_processing_app
 ```
 ### 2. Create and activate a virtual environment
 Using Windows:   
